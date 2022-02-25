@@ -28,7 +28,7 @@ from ..SimilarBu.ABuSimilar import from_local
 from ..TLineBu.ABuTLine import AbuTLine
 from ..UtilBu.ABuDTUtil import plt_show
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 g_top_corr_cnt = 300

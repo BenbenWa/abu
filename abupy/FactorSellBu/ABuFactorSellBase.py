@@ -18,7 +18,7 @@ from ..SlippageBu.ABuSlippageSellMean import AbuSlippageSellMean
 from ..TradeBu.ABuMLFeature import AbuMlFeature
 from ..UmpBu.ABuUmpManager import AbuUmpManager
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 

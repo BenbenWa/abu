@@ -177,7 +177,7 @@ class TradeStrategy1(TradeStrategyBase):
         self.__buy_change_threshold = round(buy_change_threshold, 2)
 
 
-class TradeLoopBack(object):
+class TradeBackTest(object):
     """
         交易回测系统
     """

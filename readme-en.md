@@ -57,7 +57,7 @@ import abupy
 
 ## UI operation（Non programming）
 
-![](./abupy_ui/gif/loop_back.gif)
+![](./abupy_ui/gif/back_test.gif)
 
 [More examples of UI operations](./abupy_ui/readme.md)
 

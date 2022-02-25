@@ -23,7 +23,7 @@ from ..TLineBu import ABuTLWave
 from ..UtilBu import ABuRegUtil
 from ..UtilBu import ABuStrUtil
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 # 内置特征，趋势角度

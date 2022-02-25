@@ -18,7 +18,7 @@ from ..MarketBu.ABuMarket import is_in_sand_box
 from ..UtilBu.ABuOsUtil import show_msg
 from ..MarketBu.ABuSymbolPd import check_symbol_in_local_csv
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 """基于不同系统的提示框使用partial包装title以及显示log"""

@@ -20,7 +20,7 @@ class AbuResultTuple(namedtuple('AbuResultTuple',
                                  'capital',
                                  'benchmark'))):
     """
-        使用abu.run_loop_back返回的nametuple对象：
+        使用abu.run_back_test返回的nametuple对象：
 
         orders_pd：回测结果生成的交易订单构成的pd.DataFrame对象
         action_pd: 回测结果生成的交易行为构成的pd.DataFrame对象
@@ -199,7 +199,7 @@ def _cache_abu_result_path(n_folds, store_type, custom_name):
 def store_abu_result_tuple(abu_result_tuple, n_folds=None, store_type=EStoreAbu.E_STORE_NORMAL,
                            custom_name=None):
     """
-    保存abu.run_loop_back的回测结果AbuResultTuple对象，根据n_folds，store_type参数
+    保存abu.run_back_test的回测结果AbuResultTuple对象，根据n_folds，store_type参数
     来定义存储的文件名称
 
     :param abu_result_tuple: AbuResultTuple对象类型
@@ -273,7 +273,7 @@ def delete_abu_result_tuple(n_folds=None, store_type=EStoreAbu.E_STORE_NORMAL, c
 
 def store_abu_result_out_put(abu_result_tuple, show_log=True):
     """
-    保存abu.run_loop_back的回测结果AbuResultTuple对象，根据当前时间戳保存来定义存储的文件夹名称，
+    保存abu.run_back_test的回测结果AbuResultTuple对象，根据当前时间戳保存来定义存储的文件夹名称，
     不同于保存在cache中，将保存在out_put文件夹中，且所有单子都使用csv进行保存，不使用hdf5进行保存
     保证外部的可读性
     1. 交易单: orders.csv

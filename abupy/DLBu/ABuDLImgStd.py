@@ -25,7 +25,7 @@ __all__ = ['std_img_from_root_dir',
            'change_to_real_type'
            ]
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 # 为了im.convert('RGB')的异常错误，需要设置ImageFile.LOAD_TRUNCATED_IMAGES = True

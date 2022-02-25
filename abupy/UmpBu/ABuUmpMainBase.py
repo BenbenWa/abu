@@ -31,7 +31,7 @@ from ..UtilBu.ABuProgress import AbuMulPidProgress
 from ..CoreBu.ABuParallel import delayed, Parallel
 from ..UtilBu.ABuDTUtil import plt_show
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 """主裁使用的gmm默认分类从40-85个分类"""

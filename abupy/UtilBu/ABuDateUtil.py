@@ -23,7 +23,7 @@ except ImportError:
     from datetime import timedelta
 
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 

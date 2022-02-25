@@ -17,7 +17,7 @@ import sklearn.preprocessing as preprocessing
 from ..UtilBu import ABuFileUtil
 from ..CoreBu.ABuFixes import six
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 

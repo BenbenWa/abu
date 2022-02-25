@@ -17,7 +17,7 @@ from ..CoreBu.ABuFixes import filter
 from ..MarketBu.ABuDataCheck import check_symbol_data
 from ..MetricsBu.ABuGridSearch import GridSearch
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 

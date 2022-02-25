@@ -18,7 +18,7 @@ from ..CoreBu.ABuFixes import six
 from ..UtilBu.ABuStrUtil import to_unicode
 from ..WidgetBu.ABuWGBase import WidgetBase, WidgetSearchBox
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 

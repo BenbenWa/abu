@@ -14,7 +14,7 @@ from ..CoreBu.ABuEnv import EMarketDataSplitMode
 from ..MarketBu import ABuSymbolPd
 from ..TradeBu import AbuBenchmark
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 

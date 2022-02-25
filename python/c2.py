@@ -475,7 +475,7 @@ class TradeStrategy1(TradeStrategyBase):
         self.__buy_change_threshold = round(buy_change_threshold, 2)
 
 
-class TradeLoopBack(object):
+class TradeBackTest(object):
     """
         交易回测系统
     """
@@ -528,11 +528,11 @@ def sample_232():
     date_array = ABuSymbolPd.make_kl_df('TSLA', n_folds=2).date.tolist()
     trade_days = StockTradeDays(price_array, 0, date_array)
 
-    trade_loop_back = TradeLoopBack(trade_days, TradeStrategy1())
-    trade_loop_back.execute_trade()
-    print('回测策略1 总盈亏为：{}%'.format(reduce(lambda a, b: a + b, trade_loop_back.profit_array) * 100))
+    trade_back_test = TradeBackTest(trade_days, TradeStrategy1())
+    trade_back_test.execute_trade()
+    print('回测策略1 总盈亏为：{}%'.format(reduce(lambda a, b: a + b, trade_back_test.profit_array) * 100))
 
-    plt.plot(np.array(trade_loop_back.profit_array).cumsum())
+    plt.plot(np.array(trade_back_test.profit_array).cumsum())
     plt.show()
 
 
@@ -556,11 +556,11 @@ def sample_233_1():
     date_array = ABuSymbolPd.make_kl_df('TSLA', n_folds=2).date.tolist()
     trade_days = StockTradeDays(price_array, 0, date_array)
 
-    trade_loop_back = TradeLoopBack(trade_days, trade_strategy1)
-    trade_loop_back.execute_trade()
-    print('回测策略1 总盈亏为：{}%'.format(reduce(lambda a, b: a + b, trade_loop_back.profit_array) * 100))
+    trade_back_test = TradeBackTest(trade_days, trade_strategy1)
+    trade_back_test.execute_trade()
+    print('回测策略1 总盈亏为：{}%'.format(reduce(lambda a, b: a + b, trade_back_test.profit_array) * 100))
     # 可视化profit_array
-    plt.plot(np.array(trade_loop_back.profit_array).cumsum())
+    plt.plot(np.array(trade_back_test.profit_array).cumsum())
     plt.show()
 
 
@@ -629,10 +629,10 @@ def sample_233_2():
     trade_days = StockTradeDays(price_array, 0, date_array)
 
     trade_strategy2 = TradeStrategy2()
-    trade_loop_back = TradeLoopBack(trade_days, trade_strategy2)
-    trade_loop_back.execute_trade()
-    print('回测策略2 总盈亏为：{}%'.format(reduce(lambda a, b: a + b, trade_loop_back.profit_array) * 100))
-    plt.plot(np.array(trade_loop_back.profit_array).cumsum())
+    trade_back_test = TradeBackTest(trade_days, trade_strategy2)
+    trade_back_test.execute_trade()
+    print('回测策略2 总盈亏为：{}%'.format(reduce(lambda a, b: a + b, trade_back_test.profit_array) * 100))
+    plt.plot(np.array(trade_back_test.profit_array).cumsum())
     plt.show()
 
     # 实例化一个新的TradeStrategy2类对象
@@ -641,13 +641,13 @@ def sample_233_2():
     TradeStrategy2.set_keep_stock_threshold(20)
     # 修改股价下跌买入阀值为-0.08（下跌8%），默认为-0.10（下跌10%）
     TradeStrategy2.set_buy_change_threshold(-0.08)
-    # 实例化新的回测对象trade_loop_back
-    trade_loop_back = TradeLoopBack(trade_days, trade_strategy2)
+    # 实例化新的回测对象trade_back_test
+    trade_back_test = TradeBackTest(trade_days, trade_strategy2)
     # 执行回测
-    trade_loop_back.execute_trade()
-    print('回测策略2 总盈亏为：{}%'.format(reduce(lambda a, b: a + b, trade_loop_back.profit_array) * 100))
+    trade_back_test.execute_trade()
+    print('回测策略2 总盈亏为：{}%'.format(reduce(lambda a, b: a + b, trade_back_test.profit_array) * 100))
     # 可视化回测结果
-    plt.plot(np.array(trade_loop_back.profit_array).cumsum())
+    plt.plot(np.array(trade_back_test.profit_array).cumsum())
     plt.show()
 
 
@@ -699,11 +699,11 @@ def calc(keep_stock_threshold, buy_change_threshold):
     TradeStrategy2.set_buy_change_threshold(buy_change_threshold)
 
     # 进行回测
-    trade_loop_back = TradeLoopBack(g_trade_days, trade_strategy2)
-    trade_loop_back.execute_trade()
+    trade_back_test = TradeBackTest(g_trade_days, trade_strategy2)
+    trade_back_test.execute_trade()
     # 计算回测结果的最终盈亏值profit
-    profit = 0.0 if len(trade_loop_back.profit_array) == 0 else \
-        reduce(lambda a, b: a + b, trade_loop_back.profit_array)
+    profit = 0.0 if len(trade_back_test.profit_array) == 0 else \
+        reduce(lambda a, b: a + b, trade_back_test.profit_array)
     # 返回值profit和函数的两个输入参数
     return profit, keep_stock_threshold, buy_change_threshold
 

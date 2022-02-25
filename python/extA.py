@@ -60,8 +60,8 @@ def sample_a21():
 
     # 择时股票池
     choice_symbols = ['usNOAH', 'usSFUN', 'usBIDU', 'usAAPL', 'usGOOG', 'usTSLA', 'usWUBA', 'usVIPS']
-    # 使用run_loop_back运行策略
-    abu_result_tuple, _ = abu.run_loop_back(read_cash,
+    # 使用run_back_test运行策略
+    abu_result_tuple, _ = abu.run_back_test(read_cash,
                                             buy_factors, sell_factors, stock_pickers, choice_symbols=choice_symbols,
                                             n_folds=2)
     metrics = AbuMetricsBase(*abu_result_tuple)
@@ -75,8 +75,8 @@ def sample_a21():
     abupy.env.g_data_fetch_mode = EMarketDataFetchMode.E_DATA_FETCH_FORCE_NET
     # 择时股票池
     choice_symbols = ['601398', '600028', '601857', '601318', '600036', '000002', '600050', '600030']
-    # 使用run_loop_back运行策略
-    abu_result_tuple, _ = abu.run_loop_back(read_cash,
+    # 使用run_back_test运行策略
+    abu_result_tuple, _ = abu.run_back_test(read_cash,
                                             buy_factors, sell_factors, stock_pickers, choice_symbols=choice_symbols,
                                             n_folds=2)
 

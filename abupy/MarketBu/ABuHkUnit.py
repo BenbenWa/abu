@@ -17,7 +17,7 @@ from ..CoreBu.ABuFixes import six
 from ..UtilBu.ABuDTUtil import singleton
 from ..MarketBu.ABuSymbol import Symbol
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 _rom_dir = ABuEnv.g_project_rom_data_dir

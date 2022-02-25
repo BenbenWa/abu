@@ -22,7 +22,7 @@ import pandas as pd
 from .ABuNDBase import plot_from_order, g_calc_type, ECalcType
 from ..CoreBu.ABuPdHelper import pd_rolling_mean, pd_rolling_std
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 

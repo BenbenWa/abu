@@ -20,11 +20,11 @@ from ..TradeBu.ABuKLManager import AbuKLManager
 from ..UtilBu import ABuDateUtil
 from ..UtilBu import ABuProgress
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 
-def run_loop_back(read_cash, buy_factors, sell_factors, stock_picks=None, choice_symbols=None, n_folds=2,
+def run_back_test(read_cash, buy_factors, sell_factors, stock_picks=None, choice_symbols=None, n_folds=2,
                   start=None,
                   end=None,
                   commission_dict=None,
@@ -33,7 +33,7 @@ def run_loop_back(read_cash, buy_factors, sell_factors, stock_picks=None, choice
     """
     封装执行择时，选股回测。
 
-    推荐在使用abu.run_loop_back()函数进行全市场回测前使用abu.run_kl_update()函数首先将数据进行更新，
+    推荐在使用abu.run_back_test()函数进行全市场回测前使用abu.run_kl_update()函数首先将数据进行更新，
     在run_kl_update()中它会首选强制使用网络数据进行更新，在更新完毕后，更改数据获取方式为本地缓存，
     使用abu.run_kl_update()的好处是将数据更新与策略回测分离，在运行效率及问题排查上都会带来正面的提升
 
@@ -136,7 +136,7 @@ def run_loop_back(read_cash, buy_factors, sell_factors, stock_picks=None, choice
 
 def run_kl_update(n_folds=2, start=None, end=None, market=None, n_jobs=16, how='thread'):
     """
-    推荐在使用abu.run_loop_back()函数进行全市场回测前使用abu.run_kl_update()函数首先将数据进行更新，
+    推荐在使用abu.run_back_test()函数进行全市场回测前使用abu.run_kl_update()函数首先将数据进行更新，
     在run_kl_update()中它会首选强制使用网络数据进行更新，在更新完毕后，更改数据获取方式为本地缓存
     在run_kl_update实现根据EMarketTargetType类型即市场类型，进行全市场金融时间序列数据获取，使用多进
     程或者多线程对外执行函数，多任务批量获取时间序列数据。
@@ -185,7 +185,7 @@ def run_kl_update(n_folds=2, start=None, end=None, market=None, n_jobs=16, how='
 def store_abu_result_tuple(abu_result_tuple, n_folds=None, store_type=EStoreAbu.E_STORE_NORMAL,
                            custom_name=None):
     """
-    保存abu.run_loop_back的回测结果AbuResultTuple对象，根据n_folds，store_type参数
+    保存abu.run_back_test的回测结果AbuResultTuple对象，根据n_folds，store_type参数
     来定义存储的文件名称，透传参数使用ABuStore.store_abu_result_tuple执行操作
 
     :param abu_result_tuple: AbuResultTuple对象类型

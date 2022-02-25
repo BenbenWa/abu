@@ -25,7 +25,7 @@ from .ABuNDBase import plot_from_order, g_calc_type, ECalcType
 from ..UtilBu import ABuScalerUtil
 from ..CoreBu.ABuPdHelper import pd_rolling_mean
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 """_calc_rsi_from_pd计算rs时使用gain，否则使用change"""

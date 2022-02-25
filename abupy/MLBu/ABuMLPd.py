@@ -17,7 +17,7 @@ from ..MarketBu import ABuSymbolPd
 from ..IndicatorBu import ABuNDMa
 from ..UtilBu import ABuScalerUtil
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 

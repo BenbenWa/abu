@@ -13,7 +13,7 @@ import numpy as np
 
 from .ABuSlippageSellBase import AbuSlippageSellBase, slippage_limit_down
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 

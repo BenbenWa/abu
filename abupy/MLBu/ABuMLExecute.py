@@ -23,7 +23,7 @@ from ..UtilBu.ABuDTUtil import warnings_filter
 from ..CoreBu.ABuFixes import range
 from ..UtilBu.ABuFileUtil import file_exist
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 __all__ = [

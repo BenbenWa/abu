@@ -18,7 +18,7 @@ from ..MarketBu.ABuHkUnit import AbuHkUnit
 from ..MarketBu import ABuMarket
 from ..MarketBu.ABuMarket import MarketMixin
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 

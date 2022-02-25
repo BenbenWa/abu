@@ -21,7 +21,7 @@ import pandas as pd
 
 from ..CoreBu.ABuFixes import six
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 """暂时支持windows和mac os，不是windows就是mac os（不使用Darwin做判断），linux下没有完整测试"""

@@ -12,7 +12,7 @@ from abc import ABCMeta, abstractmethod
 from ..CoreBu.ABuFixes import six
 from ..CoreBu.ABuBase import AbuParamBase
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 

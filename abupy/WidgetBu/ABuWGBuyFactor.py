@@ -14,7 +14,7 @@ from ..FactorBuyBu.ABuFactorBuyWD import AbuFactorBuyWD
 from ..FactorBuyBu.ABuFactorBuyDemo import AbuSDBreak, AbuWeekMonthBuy
 from ..FactorBuyBu.ABuFactorBuyTrend import AbuDownUpTrend
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 

@@ -16,7 +16,7 @@ from ..MetricsBu.ABuCrossVal import AbuCrossVal
 from ..CoreBu import ABuEnv
 from ..CoreBu.ABuEnv import EMarketTargetType
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 

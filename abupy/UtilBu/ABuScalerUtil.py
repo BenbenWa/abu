@@ -10,7 +10,7 @@ from __future__ import absolute_import
 import numpy as np
 import pandas as pd
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 

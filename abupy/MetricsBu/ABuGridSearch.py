@@ -28,7 +28,7 @@ from ..MarketBu.ABuMarket import split_k_market
 from ..MarketBu.ABuDataCheck import check_symbol_data
 from ..UtilBu import ABuProgress
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 

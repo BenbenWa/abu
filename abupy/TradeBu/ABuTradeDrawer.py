@@ -25,7 +25,7 @@ from ..TradeBu.ABuCapital import AbuCapital
 g_enable_his_corr = True
 g_enable_his_trade = True
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 

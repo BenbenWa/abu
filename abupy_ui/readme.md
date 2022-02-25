@@ -1,5 +1,5 @@
 ### 1. 历史回测界面操作
-![](./gif/loop_back.gif)
+![](./gif/back_test.gif)
 
 ### 2. 阻力位支撑位分析操作
 ![](./gif/rs_line.gif)

@@ -13,7 +13,7 @@ import functools
 from ..CoreBu.ABuFixes import filter
 from ..CoreBu.ABuFixes import signature, Parameter
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 

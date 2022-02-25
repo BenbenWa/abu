@@ -17,7 +17,7 @@ from ..TradeBu.ABuMLFeature import AbuMlFeature
 # noinspection PyUnresolvedReferences
 from ..CoreBu.ABuFixes import map
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 

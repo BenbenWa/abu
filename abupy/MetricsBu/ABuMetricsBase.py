@@ -24,8 +24,23 @@ from ..TradeBu.ABuCapital import AbuCapital
 from ..TradeBu import ABuTradeExecute
 
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
+
+# TODOM: 计算度量
+'''
+净利润：
+总盈利（毛）
+总亏损（毛损）
+盈利因子（毛利／毛损）
+收益率
+年化收益率
+最大资产回撤
+净利润／最大资产回撤
+最大资产回撤幅度 
+年化收益率
+最大资产回撤幅度
+'''
 
 
 def valid_check(func):

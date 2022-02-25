@@ -27,7 +27,7 @@ from ..MetricsBu.ABuMetricsBase import AbuMetricsBase
 from ..SimilarBu.ABuSimilar import ECoreCorrType
 from ..MarketBu import ABuMarketDrawing
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 

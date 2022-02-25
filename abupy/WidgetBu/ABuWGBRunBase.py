@@ -13,7 +13,7 @@ from ..CoreBu.ABuEnv import EDataCacheType, EMarketDataFetchMode, EMarketSourceT
 from ..WidgetBu.ABuWGBase import WidgetBase, accordion_shut
 from ..UtilBu import ABuFileUtil
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 

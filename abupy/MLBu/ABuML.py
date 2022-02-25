@@ -31,7 +31,7 @@ from ..UtilBu.ABuDTUtil import warnings_filter
 from ..UtilBu.ABuDTUtil import params_to_numpy
 from ..CoreBu.ABuFixes import signature
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 p_dir = os.path.abspath(os.path.join(os.path.dirname(os.path.realpath(__file__)), os.path.pardir))

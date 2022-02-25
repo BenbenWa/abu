@@ -9,7 +9,7 @@ from __future__ import division
 from .ABuPickStockBase import AbuPickStockBase, reversed_result
 import numpy as np
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 

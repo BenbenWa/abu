@@ -23,7 +23,7 @@ from ..CoreBu import ABuEnv
 # noinspection PyUnresolvedReferences
 from ..CoreBu.ABuFixes import filter, six
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 """外部用户使用append_user_ump添加到外部ump list容器中"""

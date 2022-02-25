@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 from ..TLineBu import ABuTLExecute
 from ..UtilBu.ABuDTUtil import plt_show
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 

@@ -13,7 +13,7 @@ import numpy as np
 
 from .ABuSlippageBuyBase import AbuSlippageBuyBase, slippage_limit_up
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 """外部修改默认下跌阀值使用如：abupy.slippage.sbm.g_open_down_rate = 0.02"""

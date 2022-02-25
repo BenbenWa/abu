@@ -19,7 +19,7 @@ from ..CoreBu.ABuPdHelper import pd_resample
 from ..UtilBu.ABuDateUtil import fmt_date
 from ..UtilBu.ABuDTUtil import plt_show
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 """预备颜色序列集，超出序列数量应使用itertools.cycle循环绘制"""

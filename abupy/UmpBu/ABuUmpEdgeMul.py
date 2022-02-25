@@ -10,7 +10,7 @@ from ..MLBu.ABuMLPd import AbuMLPd
 from .ABuUmpBase import ump_edge_make_xy, BuyUmpMixin
 from .ABuUmpEdgeBase import AbuUmpEdgeBase
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 

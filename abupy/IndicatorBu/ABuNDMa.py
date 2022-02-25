@@ -21,7 +21,7 @@ from ..CoreBu.ABuPdHelper import pd_rolling_mean, pd_ewm_mean
 from ..CoreBu.ABuFixes import six
 from ..UtilBu.ABuDTUtil import catch_error
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 

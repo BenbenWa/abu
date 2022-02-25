@@ -14,7 +14,7 @@ import pandas as pd
 from ..TLineBu.ABuTLine import AbuTLine
 from ..CoreBu.ABuPdHelper import pd_rolling_std, pd_ewm_std
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 

@@ -23,7 +23,7 @@ from ..UtilBu.ABuFileUtil import batch_h5s
 # noinspection PyUnresolvedReferences
 from ..CoreBu.ABuFixes import filter
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 

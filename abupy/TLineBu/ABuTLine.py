@@ -29,7 +29,7 @@ from ..UtilBu.ABuDTUtil import arr_to_numpy
 from ..UtilBu.ABuLazyUtil import LazyFunc
 from ..UtilBu.ABuDTUtil import plt_show
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 """模块打印根据环境选择logging.info或者print函数"""

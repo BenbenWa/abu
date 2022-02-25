@@ -11,7 +11,7 @@ import ipywidgets as widgets
 
 from ..WidgetBu.ABuWGBase import WidgetFactorBase, WidgetFactorManagerBase
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 

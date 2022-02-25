@@ -33,7 +33,7 @@ from ..UmpBu.ABuUmpEdgePrice import AbuUmpEdgePrice
 from ..UmpBu.ABuUmpEdgeMul import AbuUmpEdgeMul
 from ..UmpBu import ABuUmpManager
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 

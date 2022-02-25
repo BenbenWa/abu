@@ -13,7 +13,7 @@ from ..PickStockBu.ABuPickStockDemo import AbuPickStockShiftDistance, AbuPickSto
 from ..PickStockBu.ABuPickStockPriceMinMax import AbuPickStockPriceMinMax
 from ..WidgetBu.ABuWGPSBase import WidgetPickStockBase
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 

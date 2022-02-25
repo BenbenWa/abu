@@ -17,7 +17,7 @@ from ..UtilBu.ABuStrUtil import to_unicode
 from ..UtilBu.ABuOsUtil import show_msg
 from ..MarketBu.ABuSymbol import search_to_symbol_dict
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 show_msg_func = logging.info

@@ -19,7 +19,7 @@ from ..UtilBu.ABuStrUtil import digit_str
 from ..MarketBu.ABuSymbol import Symbol, code_to_symbol
 from ..CrawlBu.ABuXqConsts import columns_map
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 _rom_dir = ABuEnv.g_project_rom_data_dir

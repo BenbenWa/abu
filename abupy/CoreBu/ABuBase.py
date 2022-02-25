@@ -15,7 +15,7 @@ import pandas as pd
 from ..CoreBu.ABuFixes import signature, Parameter, pickle
 from ..CoreBu import ABuEnv
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 

@@ -15,7 +15,7 @@ from ..FactorSellBu.ABuFactorSellDM import AbuDoubleMaSell
 from ..FactorSellBu.ABuFactorSellNDay import AbuFactorSellNDay
 from ..WidgetBu.ABuWGSFBase import WidgetFactorSellBase
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 

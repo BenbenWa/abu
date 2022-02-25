@@ -17,7 +17,7 @@ from scipy import stats
 # noinspection PyUnresolvedReferences
 from ..CoreBu.ABuFixes import range, xrange
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 # TODO 使用enum代替K常量

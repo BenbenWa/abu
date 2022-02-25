@@ -15,7 +15,7 @@ from ..UtilBu.ABuStrUtil import to_unicode
 from ..MarketBu.ABuSymbolStock import AbuSymbolCN, AbuSymbolUS, AbuSymbolHK
 from ..MarketBu.ABuSymbolFutures import AbuFuturesCn, AbuFuturesGB
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 

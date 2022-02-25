@@ -16,7 +16,7 @@ from abupy import AbuFactorBuyBreak
 from abupy import AbuFactorAtrNStop
 from abupy import AbuFactorPreAtrNStop
 from abupy import AbuFactorCloseAtrNStop
-# run_loop_back等一些常用且最外层的方法定义在abu中
+# run_back_test等一些常用且最外层的方法定义在abu中
 from abupy import abu
 
 warnings.filterwarnings('ignore')
@@ -57,8 +57,8 @@ def sample_91(show=True):
     # 择时股票池
     choice_symbols = ['usNOAH', 'usSFUN', 'usBIDU', 'usAAPL', 'usGOOG',
                       'usTSLA', 'usWUBA', 'usVIPS']
-    # 使用run_loop_back运行策略
-    abu_result_tuple, kl_pd_manager = abu.run_loop_back(read_cash,
+    # 使用run_back_test运行策略
+    abu_result_tuple, kl_pd_manager = abu.run_back_test(read_cash,
                                                         buy_factors,
                                                         sell_factors,
                                                         stock_pickers,
@@ -360,11 +360,11 @@ def sample_94_2(from_cache=False):
         read_cash = 5000000
         # 每笔交易的买入基数资金设置为万分之15
         abupy.beta.atr.g_atr_pos_base = 0.0015
-        # 使用run_loop_back运行策略，因子使用和之前一样，
+        # 使用run_back_test运行策略，因子使用和之前一样，
         # choice_symbols=None为全市场回测，5年历史数据回测
         # 不同电脑运行速度差异大，mac pro顶配大概下面跑了4小时
         # choice_symbols=None为全市场回测，5年历史数据回测
-        abu_result_tuple, _ = abu.run_loop_back(read_cash,
+        abu_result_tuple, _ = abu.run_back_test(read_cash,
                                                 buy_factors, sell_factors,
                                                 stock_pickers,
                                                 choice_symbols=None,
@@ -406,7 +406,7 @@ def sample_94_3(from_cache=False, show=True):
         read_cash = 5000000
         abupy.beta.atr.g_atr_pos_base = 0.007
         choice_symbols = None
-        abu_result_tuple_test, kl_pd_manager_test = abu.run_loop_back(read_cash,
+        abu_result_tuple_test, kl_pd_manager_test = abu.run_back_test(read_cash,
                                                                       buy_factors, sell_factors, stock_pickers,
                                                                       choice_symbols=choice_symbols, start='2012-08-08',
                                                                       end='2017-08-08')

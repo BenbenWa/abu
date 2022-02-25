@@ -856,9 +856,9 @@ def sample_1051_1(from_cache=False, show=True):
         read_cash = 5000000
         # 每笔交易的买入基数资金设置为万分之15
         abupy.beta.atr.g_atr_pos_base = 0.0015
-        # 使用run_loop_back运行策略，因子使用和之前一样，
+        # 使用run_back_test运行策略，因子使用和之前一样，
         # choice_symbols=None为全市场回测，5年历史数据回测
-        abu_result_tuple, _ = abu.run_loop_back(read_cash,
+        abu_result_tuple, _ = abu.run_back_test(read_cash,
                                                 buy_factors, sell_factors,
                                                 stock_pickers,
                                                 choice_symbols=None,
@@ -886,7 +886,7 @@ def sample_1051_1(from_cache=False, show=True):
         read_cash = 5000000
         abupy.beta.atr.g_atr_pos_base = 0.007
         choice_symbols = None
-        abu_result_tuple_test, kl_pd_manager_test = abu.run_loop_back(read_cash,
+        abu_result_tuple_test, kl_pd_manager_test = abu.run_back_test(read_cash,
                                                                       buy_factors, sell_factors, stock_pickers,
                                                                       choice_symbols=choice_symbols, start='2012-08-08',
                                                                       end='2017-08-08')

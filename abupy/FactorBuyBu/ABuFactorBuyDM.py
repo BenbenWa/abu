@@ -16,7 +16,7 @@ from ..IndicatorBu.ABuNDMa import calc_ma_from_prices
 from ..CoreBu.ABuPdHelper import pd_resample
 from ..TLineBu.ABuTL import AbuTLine
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 

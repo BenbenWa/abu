@@ -12,7 +12,7 @@ from ..BetaBu.ABuKellyPosition import AbuKellyPosition
 from ..BetaBu.ABuPtPosition import AbuPtPosition
 from ..WidgetBu.ABuWGPosBase import WidgetPositionBase
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 

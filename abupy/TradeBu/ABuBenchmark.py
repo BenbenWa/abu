@@ -15,7 +15,7 @@ from ..CoreBu import ABuEnv
 from ..CoreBu.ABuBase import PickleStateMixin
 from ..CoreBu.ABuFixes import six
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 

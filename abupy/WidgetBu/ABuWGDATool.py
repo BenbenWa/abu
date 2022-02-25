@@ -11,7 +11,7 @@ from IPython.display import display
 from ..UtilBu import ABuKLUtil
 from ..WidgetBu.ABuWGToolBase import WidgetToolBase, multi_fetch_symbol_analyse
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 

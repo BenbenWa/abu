@@ -22,7 +22,7 @@ from ..UtilBu import ABuScalerUtil
 from ..UtilBu.ABuDTUtil import catch_error
 from ..CoreBu.ABuPdHelper import pd_ewm_mean
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 

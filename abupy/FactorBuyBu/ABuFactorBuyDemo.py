@@ -15,7 +15,7 @@ from .ABuFactorBuyBreak import AbuFactorBuyBreak
 from ..TLineBu.ABuTL import AbuTLine
 from ..FactorBuyBu.ABuBuyFactorWrap import AbuLeastPolyWrap
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 

@@ -8,7 +8,7 @@ from __future__ import print_function
 
 from ..MetricsBu.ABuMetricsFutures import AbuMetricsFutures
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 

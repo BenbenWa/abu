@@ -9,7 +9,7 @@ from __future__ import division
 
 from .ABuFactorSellBase import AbuFactorSellBase, AbuFactorSellXD, ESupportDirection
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 

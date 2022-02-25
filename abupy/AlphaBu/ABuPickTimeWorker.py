@@ -20,7 +20,7 @@ from .ABuPickBase import AbuPickTimeWorkBase
 from ..CoreBu.ABuFixes import filter
 from ..UtilBu.ABuProgress import AbuMulPidProgress
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 """

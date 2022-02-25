@@ -19,7 +19,7 @@ from ..WidgetBu.ABuWGPSBase import PickStockWGManager
 from ..WidgetBu.ABuWGPosBase import PosWGManager
 from ..WidgetBu.ABuWGUmp import WidgetUmp
 
-from ..CoreBu.ABu import run_loop_back
+from ..CoreBu.ABu import run_back_test
 from ..CoreBu.ABuStore import store_abu_result_out_put
 # noinspection PyUnresolvedReferences
 from ..CoreBu.ABuFixes import filter
@@ -31,12 +31,12 @@ from ..TradeBu.ABuCapital import AbuCapital
 from ..MetricsBu.ABuMetricsBase import AbuMetricsBase
 from ..CoreBu.ABuStore import AbuResultTuple
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 
 # noinspection PyProtectedMember
-class WidgetRunLoopBack(WidgetBase):
+class WidgetRunBackTest(WidgetBase):
     """基础界面可以化：初始资金，回测开始，结束周期，参考大盘等"""
 
     # noinspection PyProtectedMember
@@ -67,10 +67,10 @@ class WidgetRunLoopBack(WidgetBase):
         for ind, name in enumerate([u'基本', u'股池', u'买策', u'卖策', u'选股', u'资管', u'裁判']):
             sub_widget_tab.set_title(ind, name)
 
-        self.run_loop_bt = widgets.Button(description=u'开始回测', layout=widgets.Layout(width='98%'),
+        self.run_back_test_bt = widgets.Button(description=u'开始回测', layout=widgets.Layout(width='98%'),
                                           button_style='danger')
-        self.run_loop_bt.on_click(self.run_loop_back)
-        self.widget = widgets.VBox([sub_widget_tab, self.run_loop_bt])
+        self.run_back_test_bt.on_click(self.run_back_test)
+        self.widget = widgets.VBox([sub_widget_tab, self.run_back_test_bt])
 
     def _metrics_out_put(self, metrics, abu_result_tuple):
         """针对输出结果和界面中的设置进行输出操作"""
@@ -108,7 +108,7 @@ class WidgetRunLoopBack(WidgetBase):
             store_abu_result_out_put(abu_result_tuple)
 
     # noinspection PyUnusedLocal
-    def run_loop_back(self, bt):
+    def run_back_test(self, bt):
         """运行回测所对应的button按钮"""
         # 清理之前的输出结果
         # ABuProgress.clear_output()
@@ -176,8 +176,8 @@ class WidgetRunLoopBack(WidgetBase):
             if len(stock_picks) == 0:
                 stock_picks = None
 
-            # 多只股票使用run_loop_back
-            abu_result_tuple, _ = run_loop_back(cash,
+            # 多只股票使用run_back_test
+            abu_result_tuple, _ = run_back_test(cash,
                                                 buy_factors,
                                                 sell_factors,
                                                 stock_picks,

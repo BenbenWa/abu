@@ -22,7 +22,7 @@ from ..UtilBu.ABuDTUtil import warnings_filter, catch_error
 from ..UtilBu import ABuFileUtil, ABuOsUtil
 from ..CoreBu.ABuParallel import run_in_subprocess, run_in_thread
 
-__author__ = '阿布'
+__author__ = '笨笨娃'
 __weixin__ = 'abu_quant'
 
 
